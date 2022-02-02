@@ -14,7 +14,6 @@
 		CE8F781827AA57930099A5EA /* solid_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE8F781627AA57930099A5EA /* solid_test.xcdatamodeld */; };
 		CE8F781A27AA57960099A5EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8F781927AA57960099A5EA /* Assets.xcassets */; };
 		CE8F781D27AA57970099A5EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8F781B27AA57970099A5EA /* LaunchScreen.storyboard */; };
-		CE8F782527AA58DF0099A5EA /* ViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F782427AA58DF0099A5EA /* ViewBuilder.swift */; };
 		CE8F782727AA5C9C0099A5EA /* MonyeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F782627AA5C9C0099A5EA /* MonyeModel.swift */; };
 		CE8F782C27AA5CEA0099A5EA /* MoneyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F782B27AA5CEA0099A5EA /* MoneyViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +28,6 @@
 		CE8F781927AA57960099A5EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8F781C27AA57970099A5EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE8F781E27AA57970099A5EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE8F782427AA58DF0099A5EA /* ViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilder.swift; sourceTree = "<group>"; };
 		CE8F782627AA5C9C0099A5EA /* MonyeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonyeModel.swift; sourceTree = "<group>"; };
 		CE8F782B27AA5CEA0099A5EA /* MoneyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				CE8F781127AA57930099A5EA /* MoneyView.swift */,
-				CE8F782427AA58DF0099A5EA /* ViewBuilder.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -177,7 +174,6 @@
 				CE8F781227AA57930099A5EA /* MoneyView.swift in Sources */,
 				CE8F781827AA57930099A5EA /* solid_test.xcdatamodeld in Sources */,
 				CE8F780E27AA57930099A5EA /* AppDelegate.swift in Sources */,
-				CE8F782527AA58DF0099A5EA /* ViewBuilder.swift in Sources */,
 				CE8F782C27AA5CEA0099A5EA /* MoneyViewModel.swift in Sources */,
 				CE8F782727AA5C9C0099A5EA /* MonyeModel.swift in Sources */,
 				CE8F781027AA57930099A5EA /* SceneDelegate.swift in Sources */,

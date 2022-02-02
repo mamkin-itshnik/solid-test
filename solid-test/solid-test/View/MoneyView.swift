@@ -8,9 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    lazy var addIncreaseButton = makeIncreaseMoneyButton()
-    lazy var addDecreaseButton = makeDecreaseMoneyButton()
-    lazy var balanceLabel = makeBalanceLabel()
+
     private var viewModel: MoneyViewModelProtocol!
     
     var viewData: BalanceState = .checking{
@@ -30,10 +28,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         viewModel = MoneyViewModel()
-        view.addSubview(addIncreaseButton)
-        view.addSubview(addDecreaseButton)
-        view.addSubview(balanceLabel)
-        setConstraints()
+        
+        //MARK: SRP disturbance
+        viewModel.addIncreaseButton = viewModel.makeIncreaseMoneyButton()
+        viewModel.addDecreaseButton = viewModel.makeDecreaseMoneyButton()
+        viewModel.balanceLabel = viewModel.makeBalanceLabel()
+        
+        view.addSubview(viewModel.addIncreaseButton)
+        view.addSubview(viewModel.addDecreaseButton)
+        view.addSubview(viewModel.balanceLabel)
+        viewModel.setConstraints(view: self.view)
+        //---
+        
         connectDataSource()
     }
     
@@ -44,17 +50,10 @@ class ViewController: UIViewController {
     }
     
     func showBalance(str: String){
-        balanceLabel.text = str
+        //MARK: SRP disturbance
+        viewModel.balanceLabel.text = str
+        //---
     }
-    
-    @objc func increaseMoney(){
-        viewModel.increaseMoney()
-    }
-    
-    @objc func decreaseeMoney(){
-        viewModel.decreaseMoney()
-    }
-    
     
 }
 
