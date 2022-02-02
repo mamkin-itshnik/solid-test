@@ -29,7 +29,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        viewModel = MoneyViewModel()
+        //MARK: LSP broke
+        viewModel = BrokenViewModel()
+        //---
         view.addSubview(addIncreaseButton)
         view.addSubview(addDecreaseButton)
         view.addSubview(balanceLabel)

@@ -17,6 +17,7 @@
 		CE8F782527AA58DF0099A5EA /* ViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F782427AA58DF0099A5EA /* ViewBuilder.swift */; };
 		CE8F782727AA5C9C0099A5EA /* MonyeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F782627AA5C9C0099A5EA /* MonyeModel.swift */; };
 		CE8F782C27AA5CEA0099A5EA /* MoneyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F782B27AA5CEA0099A5EA /* MoneyViewModel.swift */; };
+		CE8F782E27AA8C000099A5EA /* BrokenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F782D27AA8C000099A5EA /* BrokenViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		CE8F782427AA58DF0099A5EA /* ViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilder.swift; sourceTree = "<group>"; };
 		CE8F782627AA5C9C0099A5EA /* MonyeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonyeModel.swift; sourceTree = "<group>"; };
 		CE8F782B27AA5CEA0099A5EA /* MoneyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyViewModel.swift; sourceTree = "<group>"; };
+		CE8F782D27AA8C000099A5EA /* BrokenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				CE8F782B27AA5CEA0099A5EA /* MoneyViewModel.swift */,
+				CE8F782D27AA8C000099A5EA /* BrokenViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				CE8F780E27AA57930099A5EA /* AppDelegate.swift in Sources */,
 				CE8F782527AA58DF0099A5EA /* ViewBuilder.swift in Sources */,
 				CE8F782C27AA5CEA0099A5EA /* MoneyViewModel.swift in Sources */,
+				CE8F782E27AA8C000099A5EA /* BrokenViewModel.swift in Sources */,
 				CE8F782727AA5C9C0099A5EA /* MonyeModel.swift in Sources */,
 				CE8F781027AA57930099A5EA /* SceneDelegate.swift in Sources */,
 			);
