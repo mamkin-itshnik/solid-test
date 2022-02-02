@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     lazy var addIncreaseButton = makeIncreaseMoneyButton()
     lazy var addDecreaseButton = makeDecreaseMoneyButton()
     lazy var balanceLabel = makeBalanceLabel()
-    private var viewModel: MoneyViewModelProtocol!
+    private var viewModel: MoneyViewModel!
     
     var viewData: BalanceState = .checking{
         didSet{

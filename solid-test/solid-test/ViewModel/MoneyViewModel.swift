@@ -7,15 +7,7 @@
 
 import Foundation
 
-protocol MoneyViewModelProtocol{
-    var updateViewData: ((BalanceState)->())? {get set}
-    var currentViewData: BalanceState.BalanceData {get set}
-    
-    func increaseMoney()
-    func decreaseMoney()
-}
-
-class MoneyViewModel: MoneyViewModelProtocol{
+class MoneyViewModel{
     var updateViewData: ((BalanceState) -> ())?
     var currentViewData: BalanceState.BalanceData
     
