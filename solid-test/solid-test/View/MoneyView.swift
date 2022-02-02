@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         
         viewModel = MoneyViewModel()
         
-        //MARK: SRP disturbance
+        //MARK:  broke SRP
         viewModel.addIncreaseButton = viewModel.makeIncreaseMoneyButton()
         viewModel.addDecreaseButton = viewModel.makeDecreaseMoneyButton()
         viewModel.balanceLabel = viewModel.makeBalanceLabel()
@@ -50,7 +50,7 @@ class ViewController: UIViewController {
     }
     
     func showBalance(str: String){
-        //MARK: SRP disturbance
+        //MARK:  broke SRP
         viewModel.balanceLabel.text = str
         //---
     }

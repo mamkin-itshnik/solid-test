@@ -14,7 +14,7 @@ protocol MoneyViewModelProtocol{
     func increaseMoney()
     func decreaseMoney()
     
-    //MARK: SRP disturbance
+    //MARK: broke SRP
     var addIncreaseButton: UIButton! { get set }
     var addDecreaseButton: UIButton! { get set }
     var balanceLabel: UILabel! { get set }
@@ -50,7 +50,7 @@ class MoneyViewModel: MoneyViewModelProtocol{
             self?.updateViewData?(.updated(data))
         }
     }
-    //MARK: SRP disturbance
+    //MARK:  broke SRP
     
     var addIncreaseButton: UIButton!
     var addDecreaseButton: UIButton!
